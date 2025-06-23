@@ -1,0 +1,71 @@
+body {
+    background-image: url("train.jpg");
+    background-size: cover;
+    font-family: 'Caprasimo', serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px yellow;
+    color: black;  
+    height: 100vh;
+}
+
+.container {
+  width: 90%;           
+  max-width: 600px;      
+  margin: 20px auto;     
+  padding: 20px;         
+  background: white;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.container h1 {
+  margin: 0 0 8px;                 
+}
+
+.container h2 {
+  margin: 0 0 24px;
+  font-size: 48px;                 
+}
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+
+}
+
+#increment-btn {
+    background: darkred;
+}
+button:hover {
+      opacity: 0.8;
+      transform: translateY(-2px);
+
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
